@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+}
+
+/* ---------------------------------
+    ---------------------------------
+    HEADER
+    ---------------------------------
+    ---------------------------------
+*/
+
+header {
+    background-color: #190A01;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 5vw;
+    padding-right: 3vw;
+}
+
+header nav ul li a {
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #E55E0A;
+    transition: width 0.3s;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
+header img {
+    position: absolute;
+    height: 70%;
+    top: 0;
+    left: 2vw;
+    transform: translateY(20%);
+}
+
+h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 2rem;
+    margin-top: 6vh;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+/* ---------------------------------
+    ---------------------------------
+    MEMBRES DE L'EQUIPE
+    ---------------------------------
+    ---------------------------------
+*/
+
+.clickeurs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem;
+    row-gap: 10vh;
+}
+
+.clickeurs article {
+    width: calc(70% / 3);
+}
+
+.clickeurs article img {
+    width: 100%;
+}
+
+.clickeurs article h2 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.2rem;
+    margin-top: 0.2vh;
+    margin-bottom: 0.5vh;
+}
+
+.clickeurs article p {
+    margin: 0;
+    font-family: "Istok Web", sans-serif;
+}
+
+/* ---------------------------------
+    ---------------------------------
+    EQUIPE
+    ---------------------------------
+    ---------------------------------
+*/
+
+.equipe {
+    height: 70vh;
+    position: relative;
+}
+
+.equipe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.equipe p {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    right: 0;
+    z-index: 1;
+    top: 0;
+    width: 45vw;
+    height: 40vh;
+    margin-top: 0;
+    padding: 1rem;
+    font-family: "Istok Web", sans-serif;
+    border-bottom-left-radius: 20px;
+}
+
+/* ---------------------------------
+    ---------------------------------
+    FOOTER
+    ---------------------------------
+    ---------------------------------
+*/
+
+footer {
+    background-color: #190A01;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-family: "JetBrains Mono", monospace;
+    padding-right: 3vw;
+    align-items: center;
+}
+
+footer h5 {
+    margin: 0.5vh;
+}
+
+footer .infos {
+    display: flex;
+    gap: 5vw;
+}
+
+footer .reseaux {
+    display: flex;
+    gap: 2vw;
+}
+
+footer .reseaux a:hover {
+    opacity: 0.7;
+}
+
+footer #footer_logo {
+    height: 10%;
+    width: 5%;
+}
