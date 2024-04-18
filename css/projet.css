@@ -1,0 +1,144 @@
+.galerie {
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-between;
+}
+
+.principale{
+    margin: 50px 120px;
+
+}
+
+.projet {
+    font-family: "JetBrains Mono", monospace;
+    flex: 0 0 80px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 150px 10px;
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.projet img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.projet:hover {
+    background-color: #B24908;
+    color: #fff;
+    border:#fff 4px solid;
+    
+}
+
+.titre_projet {
+    margin: 0px;
+}
+
+h1  {
+    display: inline-block;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 80px;
+    border-bottom: #E55E0A 5px solid;
+
+}
+
+.nav_projet {
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin: 20px 0;
+    flex-direction: row;
+}
+
+.nav_projet a {
+    flex-direction: column;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #000;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+    font: 15px "JetBrains Mono", monospace;
+}
+
+.modal p {
+    font: 15px "istok Web", sans-serif;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: absolute;
+    left: 50%;
+    top: 12%;
+    transform: translate(-50%, -10%);
+    padding: 20px;
+    border: 2px solid #7F3406;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+}
+
+.close {
+    font: 15px "istok Web", sans-serif;
+    color: #7F3406;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.modal iframe {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.apropos {
+    margin: 50px 120px;
+}
+.apropos p {
+    font-family: "istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 50px 0;
+}
