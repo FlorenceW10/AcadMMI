@@ -190,3 +190,78 @@ header img {
     gap: 1vw;
     margin-top: 3vh;
 }
+
+/* ---------------------------------
+    ---------------------------------
+    VALEURS
+    ---------------------------------
+    ---------------------------------
+*/
+
+.valeurs {
+    background-color: #272727;
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
+}
+
+.valeurs h2 {
+    font-weight: 800;
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 2rem;
+}
+
+.valeurs h2::after {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 4px;
+    background-color: #E55E0A;
+    margin: 1vh auto;
+}
+
+.valeurs .ligne1, .valeurs .ligne2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10vw;
+    margin-top: 10vh;
+}
+
+.valeurs .ligne2 {
+    margin-top: 20vh;
+}
+
+.valeurs article {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.valeurs #colab {
+    transform: translateX(-8%);
+}
+
+
+/* ---------------------------------
+    ---------------------------------
+    FOOTER
+    ---------------------------------
+    ---------------------------------
+*/
+
+footer {
+    background-color: #190A01;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    font-family: "JetBrains Mono", monospace;
+    padding-right: 3vw;
+}
+
+footer img {
+    height: 10%;
+    width: 5%;
+}
