@@ -29,6 +29,20 @@ header nav ul li a {
     font-family: "JetBrains Mono", monospace;
     color: #fff;
     text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #E55E0A;
+    transition: width 0.3s;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
 }
 
 header img {
@@ -53,19 +67,63 @@ header img {
     flex-direction: column;
     justify-content: center;
     padding-left: 5vw;
+    background-color: #E55E0A;
 }
 
 .hero img {
     position: absolute;
-    width: 100%;
-    object-fit: cover;
     height: 100%;
-    z-index: -1;
-    left: 0;
+    right: 0;
 }
 
 .hero h1 {
     margin: 0;
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    font-size: 3rem;
+    z-index: 1;
+    position: relative;
+}
+
+.hero h1::after {
+    content: "";
+    display: block;
+    width: 10vw;
+    height: 20px;
+    background-color: #7F3406;
+    border-radius: 20px;
+    position: absolute;
+    top: 32%;
+    left: 2%;
+    z-index: -1;
+}
+
+.hero h2 {
+    margin-top: 0.5vh;
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    font-size: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h2::after {
+    content: "";
+    display: block;
+    width: 37vw;
+    height: 20px;
+    background-color: #7F3406;
+    border-radius: 20px;
+    position: absolute;
+    top: 35%;
+    left: -1%;
+    z-index: -1;
+}
+
+.hero p {
+    font-family: "JetBrains Mono", monospace;
+    color: #fff;
+    font-size: 1.3rem;
 }
 
 /* ---------------------------------
@@ -131,6 +189,13 @@ header img {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.home_projets article:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .home_projets article h3, .home_projets article h4 {
@@ -189,6 +254,12 @@ header img {
     align-items: center;
     gap: 1vw;
     margin-top: 3vh;
+    transition: gap 0.4s;
+}
+
+.home_entreprise div.bouton_contact:hover {
+    gap: 2vw;
+    transition: gap 0.4s;
 }
 
 /* ---------------------------------
@@ -238,8 +309,8 @@ header img {
     gap: 1.5vw;
 }
 
-.valeurs #colab {
-    transform: translateX(-8%);
+.valeurs article div {
+    width: 25vw;
 }
 
 
@@ -259,9 +330,28 @@ footer {
     justify-content: space-between;
     font-family: "JetBrains Mono", monospace;
     padding-right: 3vw;
+    align-items: center;
 }
 
-footer img {
+footer h5 {
+    margin: 0.5vh;
+}
+
+footer .infos {
+    display: flex;
+    gap: 5vw;
+}
+
+footer .reseaux {
+    display: flex;
+    gap: 2vw;
+}
+
+footer .reseaux a:hover {
+    opacity: 0.7;
+}
+
+footer #footer_logo {
     height: 10%;
     width: 5%;
 }
