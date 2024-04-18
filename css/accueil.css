@@ -31,6 +31,19 @@ header nav ul li a {
     text-decoration: none;
 }
 
+header nav ul li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #E55E0A;
+    transition: width 0.3s;
+}
+
+header nav ul li a:hover::after {
+    width: 100%;
+}
+
 header img {
     position: absolute;
     height: 70%;
@@ -177,6 +190,13 @@ header img {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.home_projets article:hover {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .home_projets article h3, .home_projets article h4 {
@@ -235,6 +255,12 @@ header img {
     align-items: center;
     gap: 1vw;
     margin-top: 3vh;
+    transition: gap 0.4s;
+}
+
+.home_entreprise div.bouton_contact:hover {
+    gap: 2vw;
+    transition: gap 0.4s;
 }
 
 /* ---------------------------------
