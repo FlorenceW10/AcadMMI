@@ -35,9 +35,9 @@
 }
 
 .projet:hover {
-    background-color: #000;
+    background-color: #B24908;
     color: #fff;
-    border:#fff 3px solid;
+    border:#fff 4px solid;
     
 }
 
@@ -46,10 +46,12 @@
 }
 
 h1  {
+    display: inline-block;
     font-family: "JetBrains Mono", monospace;
     font-size: 50px;
     font-weight: bold;
     margin: 20px 80px;
+    border-bottom: #E55E0A 5px solid;
 
 }
 
@@ -81,8 +83,12 @@ h1  {
     width: 100%; 
     height: 100%; 
     overflow: auto; 
-    background-color: rgb(0,0,0); 
     background-color: rgba(0,0,0,0.4); 
+    font: 15px "JetBrains Mono", monospace;
+}
+
+.modal p {
+    font: 15px "istok Web", sans-serif;
 }
 
 .modal-content {
@@ -100,9 +106,10 @@ h1  {
 }
 
 .close {
+    font: 15px "istok Web", sans-serif;
     color: #7F3406;
     float: right;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -125,7 +132,13 @@ h1  {
     object-fit: cover;
 }
 
-p {
-    font-family: "istok Web", sans-serif;
 
+.apropos {
+    margin: 50px 120px;
+}
+.apropos p {
+    font-family: "istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 50px 0;
 }
