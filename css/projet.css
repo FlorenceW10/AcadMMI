@@ -1,0 +1,57 @@
+.galerie {
+    display: flex;
+    flex-direction: Column;
+    justify-content: space-between;
+}
+
+.principale{
+    margin: 50px 120px;
+
+}
+
+.projet {
+    font-family: "JetBrains Mono", monospace;
+    flex: 0 0 100px;
+    margin:50px 0px;
+    padding: 150px 10px;
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.projet img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.projet:hover {
+    background-color: #000;
+    color: #fff;
+    border:#fff 3px solid;
+    
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+
+h1  {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 80px;
+
+}
+
