@@ -284,8 +284,8 @@ header img {
     gap: 1.5vw;
 }
 
-.valeurs #colab {
-    transform: translateX(-8%);
+.valeurs article div {
+    width: 25vw;
 }
 
 
