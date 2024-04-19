@@ -34,6 +34,19 @@ span3.onclick = function() {
     modal3.style.display = "none";
 }
 
+var modal4 = document.getElementById("myModal4");
+var btn4 = document.getElementsByClassName("projet")[3];
+var span4 = document.getElementsByClassName("close")[3];
+
+btn4.onclick = function() {
+  modal4.style.display = "block";
+}
+
+span4.onclick = function() {
+  modal4.style.display = "none";
+}
+
+
 window.onclick = function(event) {
   if (event.target == modal1) {
     modal1.style.display = "none";
@@ -44,6 +57,9 @@ window.onclick = function(event) {
     if (event.target == modal3) {
         modal3.style.display = "none";
     }
+    if (event.target == modal4) {
+      modal4.style.display = "none";
+    }
 }
 
 var navLinks = document.querySelectorAll(".nav_projet a");
@@ -53,7 +69,7 @@ navLinks.forEach(function(link) {
     link.addEventListener("click", function(event) {
         event.preventDefault();
 
-        var category = this.textContent.toLowerCase();
+        var category = this.textContent.toLowerCase().replace(' ', '-');
 
         projets.forEach(function(projet) {
             if (projet.classList.contains(category)) {
