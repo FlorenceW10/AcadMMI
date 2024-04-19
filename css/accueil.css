@@ -247,6 +247,16 @@ header img {
     display: flex;
     justify-content: center;
     gap: 10vw;
+    position: relative;
+}
+
+.home_entreprise::before {
+    content: url("../medias/motif1.svg");
+    position: absolute;
+    top: -65%;
+    left: -4%;
+    width: 16%;
+    z-index: -1;
 }
 
 .home_entreprise img {
