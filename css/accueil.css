@@ -173,6 +173,8 @@ header img {
     left: 50%;
     transform: translate(-50%, -78%);
     z-index: 2;
+    text-shadow: #fff 2px 2px 0px;
+    font-size: 2em;
 }
 
 .home_projets div {
@@ -202,14 +204,24 @@ header img {
 .home_projets article h3, .home_projets article h4 {
     font-family: "Istok Web", sans-serif;
     margin: 0;
+    color: #fff;
+    text-shadow: #000000 0 0 5px;
+}
+
+.home_projets article h3 {
+    font-size: 1.5rem;
+}
+
+.home_projets article h4 {
+    font-size: 1.2rem;
 }
 
 #proj1 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet1.png");
 }
 
 #proj2 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet2.png");
 }
 
 #proj3 {
