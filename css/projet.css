@@ -108,7 +108,7 @@ h1  {
 }
 
 .modal p {
-    font: 20px "istok Web", sans-serif;
+    font: 17px "istok Web", sans-serif;
 }
 
 .modal-content {
@@ -157,6 +157,17 @@ h1  {
     margin: 50px 120px;
 }
 .apropos p {
+    font-family: "istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 50px 0;
+}
+
+.videointeractive {
+    margin: 50px 120px;
+}
+
+.videointeractive p {
     font-family: "istok Web", sans-serif;
     font-weight: 400;
     font-size: 20px;
