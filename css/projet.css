@@ -101,6 +101,12 @@ h1  {
     font: 15px "JetBrains Mono", monospace;
 }
 
+.modal h2 {
+    display: inline-block;
+    font-family: "JetBrains Mono", monospace;
+    border-bottom: #E55E0A 3px solid;
+}
+
 .modal p {
     font: 20px "istok Web", sans-serif;
 }
