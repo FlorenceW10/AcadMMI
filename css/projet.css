@@ -186,4 +186,27 @@ h1  {
 .apropos .dates {
     color: #4f4f4f;
     font-size: 0.9em;
+    padding-left: 3vw;
+}
+
+.apropos {
+    position: relative;
+}
+
+.apropos::before {
+    content: url(../medias/motif1.svg);
+    position: absolute;
+    top: -7%;
+    right: -5%;
+    width: 13%;
+    z-index: -1;
+}
+
+.apropos::after {
+    content: url(../medias/motif1.svg);
+    position: absolute;
+    bottom: -7%;
+    left: -10%;
+    width: 8%;
+    z-index: -1;
 }
