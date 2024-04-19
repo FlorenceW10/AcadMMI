@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.27 136.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #B24908;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Calque_2-2" data-name="Calque 2">
+    <g>
+      <rect class="cls-1" x="51.89" y="11.91" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(49.03 84.1) rotate(-87.58)"/>
+      <rect class="cls-1" x="81.98" y="23.11" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(15.59 87.62) rotate(-51.58)"/>
+      <rect class="cls-1" x="99.74" y="49.86" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(-10.35 33.21) rotate(-15.58)"/>
+      <rect class="cls-1" x="110.3" y="70.02" width="9.14" height="32.97" rx="4.57" ry="4.57" transform="translate(-6.28 163.97) rotate(-69.58)"/>
+      <rect class="cls-1" x="90.35" y="95.17" width="9.14" height="32.97" rx="4.57" ry="4.57" transform="translate(-45.92 71.12) rotate(-33.58)"/>
+      <rect class="cls-1" x="47.5" y="115.71" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(-58.89 179.13) rotate(-87.58)"/>
+    </g>
+    <g>
+      <rect class="cls-1" x="47.41" y="115.71" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(-58.98 179.03) rotate(-87.58)"/>
+      <rect class="cls-1" x="17.32" y="104.51" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(-72.66 67.78) rotate(-51.58)"/>
+      <rect class="cls-1" x="-.44" y="77.76" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(-21.52 7.33) rotate(-15.58)"/>
+      <rect class="cls-1" x="12.84" y="33.77" width="9.14" height="32.97" rx="4.57" ry="4.57" transform="translate(-35.76 49.03) rotate(-69.58)"/>
+      <rect class="cls-1" x="32.79" y="8.61" width="9.14" height="32.97" rx="4.57" ry="4.57" transform="translate(-7.65 24.85) rotate(-33.58)"/>
+      <rect class="cls-1" x="51.8" y="11.91" width="32.97" height="9.14" rx="4.57" ry="4.57" transform="translate(48.94 84) rotate(-87.58)"/>
+    </g>
+  </g>
+</svg>
