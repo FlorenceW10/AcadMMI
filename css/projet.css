@@ -73,6 +73,20 @@ h1  {
     color: #000;
 }
 
+.nav_projet a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #E55E0A;
+    transition: width 0.3s;
+}
+
+.nav_projet a:hover::after {
+    width: 100%;
+}
+
+
 .modal {
     display: none; 
     position: fixed; 
@@ -87,8 +101,14 @@ h1  {
     font: 15px "JetBrains Mono", monospace;
 }
 
+.modal h2 {
+    display: inline-block;
+    font-family: "JetBrains Mono", monospace;
+    border-bottom: #E55E0A 3px solid;
+}
+
 .modal p {
-    font: 15px "istok Web", sans-serif;
+    font: 20px "istok Web", sans-serif;
 }
 
 .modal-content {
