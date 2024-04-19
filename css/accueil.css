@@ -232,7 +232,8 @@ header img {
 }
 
 #proj3 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet3.png");
+    background-position: center;
 }
 
 /* ---------------------------------
