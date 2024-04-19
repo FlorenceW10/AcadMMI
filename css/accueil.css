@@ -29,6 +29,7 @@ header nav ul li a {
     font-family: "JetBrains Mono", monospace;
     color: #fff;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 header nav ul li a::after {
@@ -66,15 +67,13 @@ header img {
     flex-direction: column;
     justify-content: center;
     padding-left: 5vw;
+    background-color: #E55E0A;
 }
 
 .hero img {
     position: absolute;
-    width: 100%;
-    object-fit: cover;
     height: 100%;
-    z-index: -1;
-    left: 0;
+    right: 0;
 }
 
 .hero h1 {
@@ -148,6 +147,7 @@ header img {
     font-weight: 400;
     font-style: normal;
     align-self: center;
+    font-size: 1.2em;
 }
 
 
@@ -173,6 +173,8 @@ header img {
     left: 50%;
     transform: translate(-50%, -78%);
     z-index: 2;
+    text-shadow: #fff 2px 2px 0px;
+    font-size: 2em;
 }
 
 .home_projets div {
@@ -202,14 +204,24 @@ header img {
 .home_projets article h3, .home_projets article h4 {
     font-family: "Istok Web", sans-serif;
     margin: 0;
+    color: #fff;
+    text-shadow: #000000 0 0 5px;
+}
+
+.home_projets article h3 {
+    font-size: 1.5rem;
+}
+
+.home_projets article h4 {
+    font-size: 1.2rem;
 }
 
 #proj1 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet1.png");
 }
 
 #proj2 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet2.png");
 }
 
 #proj3 {
@@ -247,6 +259,10 @@ header img {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+.home_entreprise p {
+    font-size: 1.2em;
 }
 
 .home_entreprise div.bouton_contact {

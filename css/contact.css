@@ -29,6 +29,7 @@ header nav ul li a {
     font-family: "JetBrains Mono", monospace;
     color: #fff;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 header nav ul li a::after {
@@ -120,12 +121,25 @@ h1 {
     right: 0;
     z-index: 1;
     top: 0;
-    width: 45vw;
+    width: 35vw;
     height: 40vh;
     margin-top: 0;
     padding: 1rem;
     font-family: "Istok Web", sans-serif;
     border-bottom-left-radius: 20px;
+    padding-top: 8vh;
+    padding-left: 2vw;
+}
+
+.equipe a {
+    color: #000;
+    text-decoration: none;
+    font-family: "Istok Web", sans-serif;
+    font-size: 1.2rem;
+}
+
+.equipe a:hover {
+    color: #B24908;
 }
 
 /* ---------------------------------
