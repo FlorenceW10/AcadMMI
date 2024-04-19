@@ -136,7 +136,7 @@ header img {
 .introduction {
     display: flex;
     justify-content: center;
-    gap: 15vw;
+    gap: 2vw;
     margin-top: 10vh;
     height: 40vh;
 }
@@ -147,6 +147,9 @@ header img {
     font-weight: 400;
     font-style: normal;
     align-self: center;
+    font-size: 1.2em;
+    flex-grow: 2;
+    text-align: center;
 }
 
 
@@ -172,6 +175,13 @@ header img {
     left: 50%;
     transform: translate(-50%, -78%);
     z-index: 2;
+    text-shadow: #fff 2px 2px 0px;
+    font-size: 2em;
+    color: #000;
+}
+
+.home_projets a {
+    text-decoration: none;
 }
 
 .home_projets div {
@@ -198,17 +208,27 @@ header img {
     transition: opacity 0.3s ease-in-out;
 }
 
-.home_projets article h3, .home_projets article h4 {
+.home_projets a div article h3, .home_projets a div article h4 {
     font-family: "Istok Web", sans-serif;
     margin: 0;
+    color: #fff;
+    text-shadow: #000000 0 0 5px;
+}
+
+.home_projets article h3 {
+    font-size: 1.5rem;
+}
+
+.home_projets article h4 {
+    font-size: 1.2rem;
 }
 
 #proj1 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet1.png");
 }
 
 #proj2 {
-    background-image: url("../medias/Animals\ for\ Ludum.jpg");
+    background-image: url("../medias/projet2.png");
 }
 
 #proj3 {
@@ -223,7 +243,7 @@ header img {
 */
 
 .home_entreprise {
-    margin-top: 10vh;
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     gap: 10vw;
@@ -246,6 +266,10 @@ header img {
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
+}
+
+.home_entreprise p {
+    font-size: 1.2em;
 }
 
 .home_entreprise div.bouton_contact {
@@ -273,7 +297,7 @@ header img {
     background-color: #272727;
     font-family: "JetBrains Mono", monospace;
     color: #fff;
-    margin-top: 10vh;
+    margin-top: 15vh;
     padding-bottom: 5vh;
 }
 
